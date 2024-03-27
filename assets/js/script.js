@@ -171,7 +171,7 @@ function submitToSubscribe(phone_number){
             icon: "success"
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "/pin.html?user_id="+data.user_id;
+                window.location.href = "/sam-media-task/pin.html?user_id="+data.user_id;
             }
         });
     })
@@ -230,7 +230,7 @@ function confirmPinCode(pincode, id, country){
                 icon: "success"
             }).then((result) => {
                 if (result.isConfirmed) {
-                    window.location.href = "/thankyou.html";
+                    window.location.href = "/sam-media-task/thankyou.html";
                 }
             });
         }else if(data.success == false) {
