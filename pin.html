@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Stickers</title>
+    <meta name="description" content="Express your self with New WhatsApp Stickers"/>
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WhatsApp Stickers" />
+    <meta property="og:description" content="Express your self with New WhatsApp Stickers" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:title" content="WhatsApp Stickers" />
+    <meta name="twitter:description" content="Express your self with New WhatsApp Stickers" />
+    <meta name="twitter:image" content="" />
+    <meta name="msapplication-TileColor" content="#59bba6">
+    <meta name="theme-color" content="#59bba6">
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/aos/aos.css"/>
+    <link rel="stylesheet" href="assets/css/styles.min.css"/>
+</head>
+<body id="pin-page">
+
+    <main>
+        <img class="background-item2" alt="Background" src="assets/img/background2.png"/>
+
+        <section id="pin-section">
+            <div class="content-wrapper">
+                <img class="laugh-it-up-logo" alt="Laugh It Up logo image" src="assets/img/laugh-it-up-logo.png" data-aos="fade-down"/>
+                <img class="new-sticker-big" alt="New Sticker big image" src="assets/img/new-sticker-big.png" data-aos="fade-down"/>
+                <img class="whatsapp-logo" alt="WhatsApp logo image" src="assets/img/whatsapp-logo.png"/>
+                <img class="monster-pin" alt="Monster image" src="assets/img/monster-pin.png"/>
+                <div class="content-placeholder-bg-wrapper" data-aos="zoom-out">
+                    <form id="pinForm">
+                        <h2>The sticker packs is ready!</h2>
+                        <p>We’ve sent you a 4 digit code <br/>
+                            please enter it below to confirm subscription! </p>
+                        <fieldset>
+                            <input type="text" id="first_digit" name="pin_code_digit" maxlength="1" />
+                            <input type="text" id="second_digit" name="pin_code_digit" maxlength="1" />
+                            <input type="text" id="third_digit" name="pin_code_digit" maxlength="1" />
+                            <input type="text" id="fourth_digit" name="pin_code_digit" maxlength="1" />
+                        </fieldset>
+                        <div class="btn-wrapper">
+                            <button type="submit"><span>Confirm</span></button>
+                        </div>
+                    </form>
+                    <div class="loader-wrapper" id="loader-wrapper">
+                        <span class="loader"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="info-wrapper">
+                <div class="framed-sticker-wrapper" data-aos="fade-up">
+                    <img class="new-small-sticker" alt="New sticker small image" src="assets/img/new-sticker-small.png"/>
+                    <img class="sticker-imgs" alt="Sticker images" src="assets/img/sticker imgs.png"/>
+                </div>
+                <div class="testimonial-wrapper">
+                    <img class="testimonial-img" alt="testimonial-img" src="assets/img/testimonial-img.png"/>
+                    <div class="feedback-wrapper">
+                        <p data-aos="fade-in">It's good. There are many cool stickers!</p>
+                        <div class="stars-wrapper" data-aos="fade-in" data-aos-delay="200">
+                            <img class="star-badge" alt="Star rating image" src="assets/img/star-badge.png"/>
+                            <img class="star-badge" alt="Star rating image" src="assets/img/star-badge.png"/>
+                            <img class="star-badge" alt="Star rating image" src="assets/img/star-badge.png"/>
+                            <img class="star-badge" alt="Star rating image" src="assets/img/star-badge.png"/>
+                        </div>
+                        <p data-aos="fade-in" data-aos-delay="400"><span>- Fikri Aziz</span></p>
+                    </div>
+                </div>
+                <div class="details-wrapper">
+                    <p>This is a subscription service. This game is compatible with most mobile phones with color screen. Supported mobile brands include Nokia, iPhone, Sony, Samsung, Motorola, LG, HTC, Xiaomi and more. No subscription fees will be charged. Maxis: RM4 per message, maximum 7 times per month, max of RM30(excl. GST) per month. Normal mobile operator network charges apply. GPRS / 3G access needs to be enabled to download the content. Data charges are billed separately. Some phones do not support GPRS / 3G. Please seek parental or guardian approval if you are 18 years old or below. Helpdesk 03-74910666 (9am-5pm Mon-Fri). To cancel send STOP ALARM to 36099. Buz2mobile operates according to the Malaysian code of conduct for SMS services. Powered by Moblife. TV Sdn Bhd.</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- Animate On Scroll -->
+    <script>
+
+        window.addEventListener('load', () => {
+            AOS.init({
+              duration: 1000,
+              once: true,
+              easing: "ease-in-out"
+            });
+        });
+
+    </script>
+    
+</body>
+</html>
